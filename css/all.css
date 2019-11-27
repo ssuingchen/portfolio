@@ -718,23 +718,23 @@ transition: all 0.5s ease-in-out;
 		background-size:38px 38px;
 	}
 	.plagin_list li.li_1 a{
-		background-image: url(../images/icon_ps@x2.png);
+		background-image: url(../images/icon_ps.png);
 		background-size:49px 42px;
 	}
 	.plagin_list li.li_2 a{
-		background-image: url(../images/icon_ai@x2.png);
+		background-image: url(../images/icon_ai.png);
 		background-size:45px 42px;
 	}
 	.plagin_list li.li_3 a{
-		background-image: url(../images/icon_ld@x2.png);
+		background-image: url(../images/icon_jlpt.png);
 		background-size:40px 43px;
 	}
 	.plagin_list li.li_4 a{
-		background-image: url(../images/icon_fl@x2.png);
+		background-image: url(../images/icon_topik.png);
 		background-size:34px 42px;
 	}
 	.plagin_list li.li_5 a{
-		background-image: url(../images/icon_html@x2.png);
+		background-image: url(../images/icon_html.png);
 		background-size:39px 55px;
 	}
 	.plagin_list li.li_6 a{
@@ -742,25 +742,18 @@ transition: all 0.5s ease-in-out;
 		background-size:55px 55px;
 	}
 	.plagin_list li.li_7 a{
-		background-image: url(../images/icon_jq@x2.png);
+		background-image: url(../images/icon_css.png);
 		background-size:87px 20px;
 	}
 	.plagin_list li.li_8 a{
-		background-image: url(../images/icon_seo@x2.png);
+		background-image: url(../images/icon_js.png);
 		background-size:60px 24px;
 	}
 	.box_contact span.email{
 		background-image: url(../images/icon_email2.png);
 		background-size:54px 41px;
 	}
-	.box_contact span.phone{
-		background-image: url(../images/icon_phone@x2.png);
-		background-size:54px 54px;
-	}
-	.box_contact span.skype{
-		background-image: url(../images/icon_skype@x2.png);
-		background-size:54px 51px;
-	}
+	
 /* begin add	 */
 	.fancybox-close {
 		background-image: url(../images/ico_btn-close@x2.png);
