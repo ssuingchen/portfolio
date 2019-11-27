@@ -750,7 +750,7 @@ transition: all 0.5s ease-in-out;
 		background-size:60px 24px;
 	}
 	.box_contact span.email{
-		background-image: url(../images/icon_email2@x2.png);
+		background-image: url(../images/icon_email2.png);
 		background-size:54px 41px;
 	}
 	.box_contact span.phone{
