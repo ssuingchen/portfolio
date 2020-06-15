@@ -441,9 +441,9 @@ transition: all 0.5s ease-in-out;
 	overflow: hidden;
 	text-align:center;
 	margin: 0 0 0 -24px;
-	position: absolute;
+	/* position: absolute;
 	top: 0;
-	left:0; 
+	left:0;  */
 
 }
 .item-list li {
@@ -457,6 +457,11 @@ transition: all 0.5s ease-in-out;
 	width: 270px;
 	margin: 0 auto;
 }
+
+.item_list .web{
+	position:absolute;
+}
+
 .item .image {
 	position: relative;
 }
