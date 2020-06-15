@@ -441,6 +441,10 @@ transition: all 0.5s ease-in-out;
 	overflow: hidden;
 	text-align:center;
 	margin: 0 0 0 -24px;
+	position: absolute;
+	top: 0;
+	left:0; 
+
 }
 .item-list li {
 	display:inline-block;
