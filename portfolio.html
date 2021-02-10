@@ -40,7 +40,7 @@
 				<h2>All works that I made</h2>
 				<ul id="filters" class="sub_nav">
 					<li class="active" data-filter="*">All works</li>
-					<li data-filter=".web">Web design</li>
+					<li data-filter=".web">Web design & Algorithms</li>
 					<li data-filter=".illustration">Illustration</li>
 					<li data-filter=".educational_material">Educational Material</li>
 					<li data-filter=".game_localization">Game Localization</li>
@@ -61,12 +61,12 @@
 					</li>
 					<li class="item web">
 						<div class="image">
-							<img src="images/pic_01.png"  alt="" />
+							<img src="images/nb.png"  alt="" />
 							<div class="hover">
 								<a class="fancybox" rel="gallery1" href="#portfolio_2">
 									<div class="item-content">
-										<h4>Card project </h4>
-										<p>This project shows my experiences of creating Cards and customizing button styles.</p>
+										<h4>Naive Bayes Text Classification Algorithm</h4>
+										<p>I wrote algorithm for Naive Bayes text classification with Python. Accuracy 0.84</p>
 									</div>
 									</a>
 							</div>
@@ -74,12 +74,12 @@
 					</li>
 					<li class="item web">
 						<div class="image">
-							<img src="images/pic_02.png"  alt="" />
+							<img src="images/lr.png"  alt="" />
 							<div class="hover">
 								<a class="fancybox" rel="gallery1" href="#portfolio_3">
 									<div class="item-content">
-										<h4>Pet Matchmaking Project</h4>
-										<p>This site displays my knowledge of creating a navbar comprised of two sections.</p>
+										<h4>Logistic Regression Text Classification Algorithm</h4>
+										<p>I wrote algorithm for Logistic Regression text classification with Python. Accuracy 0.93</p>
 									</div>
 								</a>
 							</div>
@@ -155,14 +155,7 @@
 		</div>
 		<footer id="footer">
 			<div class="footer-content">
-				<!-- <ul class="social">
-					<li class="email"><a href="#">Email</a></li>
-					<li class="facebook"><a href="#">Facebook</a></li>
-					<li class="google"><a href="#">Google+</a></li>
-					<li class="twitter"><a href="#">Twitter</a></li>
-					<li class="pinterest"><a href="#">Pinterest</a></li>
-				</ul> -->
-				<p class="copy">SsuyingChen 2019 Fall</p>
+				<p class="copy">SsuyingChen 2021 Winter</p>
 			</div>
 		</footer>	
 	</div>
@@ -185,16 +178,24 @@
 			<p>Please visit my website: <a href="https://gimmehappiless.github.io/"style="color:blue">https://gimmehappiless.github.io/</a></p>
 			</div>
 		<div id="portfolio_2" class="popup_portfolio">
-			<img src="images/card.png"  alt="" />
-			<h3>Card Project</h3>
-			<time datetime="2019-02">Made: 02/2019</time>
-			<p>I used HTML to create cards and arrange them with a grid including rows and columns. As for the customized button icons, I used links from icons8.com in CSS. </p>
+			<img src="images/nb.png"  alt="" />
+			<h3>Naive Bayes Classifier Algorithm</h3>
+			<time datetime="2021-02">Made: 02/2021</time>
+			<p>I trained the Naive Bayes classifier algorithm on training data and ran the classifier on development data with no smoothing alpha and my F1 score is 0.8452192287374538.</p>
+			<p>As I changed my smoothing alpha to 0, 0.0001, 1, 10, 100 , I got the F1 score respectively as the following picture shows. In my case, when alpha is 0.0001, the model works the best.</p>
+			<p>I used regex to delete the punctuations before and after the tokens in the training data to avoid the same words being tokenized as different words. Furthermore, I set every token to be in lowercase. This is to solve the problems that tokens look different but are actually the same words, for example: Good, ‘good,  and good??? are all one feature “good” in my algorithm. </p>
+			<p>If I include regex to do tokenize function for Naive Bayes algorithm, the F1 score is 0.8465608465608465, which is slightly higher than the F1 score(0.8452192287374538) of the tokenize function not including regex.</p>
 		</div>
 		<div id="portfolio_3" class="popup_portfolio">
-			<img src="images/pet.png"  alt="" />
-			<h3>Pet Matchmaking Project</h3>
-			<time datetime="2019-02">Made: 02/2019</time>
-			<p>I used Bootstrap 4 to create collapse navbar for the Responsive Web Design, and also made the navbar to be comprised of left and right parts with HTML. Photo by Josh Couch on Unsplash </p>
+			<img src="images/lr.png"  alt="" />
+			<h3>Logistic Regression Classifier Algorithm</h3>
+			<time datetime="2021-02">Made: 02/2021</time>
+			<p>My F1 score for logistic regression classifier algorithm is 0.9357109338338808. My model converges around epoch 7500 when the learning rate is 5e-3 with the total instances being 8000.</p>
+			<p>I used regex to delete the punctuations before and after the tokens in the training data to avoid the same words being tokenized as different words. Furthermore, I set every token to be in lowercase. This is to solve the problems that tokens look different but are actually the same words, for example: Good, ‘good,  and good??? are all one feature “good” in my algorithm. </p>
+			<p>If I include regex to do tokenize function for Logistic Regression algorithm, the F1 score is 0.938945420906568, which is larger than not using regex(0.9182058047493404). Moreover, as the following plot shows, the likelihood curves don’t converge if I don’t use regex for tokenizing words.
+			<img src="images/lr2.png"  alt="" />
+		 
+		 </p>
 		</div>
 		<div id="portfolio_4" class="popup_portfolio">
 			<img class="mySlides_4" src="images/joy1.png"  alt="" />
